@@ -22,7 +22,7 @@ public class Contador  extends ParametrosInvalidosException{
         int contagem = parametroDois - parametroUm;
 
         for (int contador = 1; contador <= contagem; contador++){
-            System.out.println("Imprimindo o número "+contador);
+            System.out.println("Imprimindo o número: "+contador);
         }
     }
 }
